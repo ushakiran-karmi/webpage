@@ -28,7 +28,7 @@ ul{
 }
 li{
 
-    color:rgb(4, 0, 0) ;
+    color:rgb(252, 240, 240) ;
     float: left;
    
     text-align: center;
@@ -38,17 +38,17 @@ li{
     height: 50;
 }
 h1{
-    color: rgb(3, 3, 4);
+    color: rgb(252, 252, 255);
    align-items: center;
     
     
 }
 
 h2:hover{
-    background-color:rgb(8, 8, 8);
+    background-color:rgb(248, 244, 244);
 }
 li:hover{
-    background-color:rgb(44, 15, 130);
+    background-color:rgb(238, 237, 242);
 }
 
 h2{
