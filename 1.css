@@ -10,10 +10,18 @@
     
 }
 .header-bottom-right{
-    bottom:0;
-    right: 0;
-    justify-content: right;
-    align-items: flex-start;
+    position:absolute;
+    bottom:10px;
+    right: 0px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    float: right;
+    text-align-last: bottom;
+    top: 10px;
+    display: flex;
+
+    
+    
     
 }
 
@@ -38,8 +46,22 @@ li{
     height: 50;
 }
 h1{
-    color: rgb(252, 252, 255);
+   
+   position: relative;
+   color: rgb(3, 3, 3);
    align-items: center;
+   background-image: url('C:\\Users\\Lenovo\\OneDrive\\Desktop\\lap.png');
+   width: 700px;
+   height: 500px;
+   top: 90px;
+   background-size: cover;
+   left: 70px;
+   text-align: center;
+   
+   
+
+
+   
     
     
 }
@@ -56,10 +78,14 @@ h2{
     float: left;
     font-family: 60px;
     width: 150px;
-    bottom:0;
-    right: 0;
+    bottom:0px;
+    right:0px;
     border-radius: 80px;
-    text-align:center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+
+     
        
     
 
